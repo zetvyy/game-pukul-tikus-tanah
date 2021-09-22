@@ -4,10 +4,12 @@ body {
   background-color: #e66a18;
 }
 
-h1 {
-  font-size: 60px;
+h1,
+h2 {
+  font-size: 50px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
 }
 
 .btnMulai {
@@ -21,6 +23,11 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  cursor: url(../img/palu1.png), auto;
+}
+
+.container:active {
+  cursor: url(../img/palu2.png), auto;
 }
 
 .tanah {
